@@ -2,7 +2,7 @@
 
 <b>[This project is in active development and not currently recommended for public use.]</b>
 
-LinkM is a small wrapper around [BamM](http://minillinim.github.io/BamM/) for associating 16S reads with assembled contigs. Emphasis has been placed on linking 16S fragments with contigs binned into putative population genomes. It works as follows:
+LinkM is a wrapper around [BamM](http://minillinim.github.io/BamM/) for associating 16S reads with assembled contigs. Emphasis has been placed on linking 16S fragments with contigs binned into putative population genomes. It works as follows:
 
 * all pairs where one or both reads derived from a 16S sequence are identified
 * these <i>16S pairs</i> are mapped onto assembled contigs
@@ -16,10 +16,11 @@ LinkM was developed as 16S sequence often fail to assemble. As a result, it is c
 The simplest way to install this package is through pip:
 > sudo pip install linkm
 
-LinkM relies on several other software packages:
+LinkM relies on several other software packages which must be on your system path:
 
 * [BamM](http://minillinim.github.io/BamM/)
 * [bwa](http://bio-bwa.sourceforge.net/)
+* [hmmer](http://hmmer.janelia.org/)
 
 ## Cite
 
