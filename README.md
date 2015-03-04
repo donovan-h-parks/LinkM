@@ -20,6 +20,7 @@ LinkM relies on several other software packages which must be on your system pat
 
 * [BamM](http://minillinim.github.io/BamM/)
 * [bwa](http://bio-bwa.sourceforge.net/)
+* [samtools](http://www.htslib.org/)
 * [hmmer](http://hmmer.janelia.org/)
 
 ## Cite
